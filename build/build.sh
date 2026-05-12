@@ -2,7 +2,7 @@
 
 echo "- Update dist"
 mkdir -p dist/
-cp -ru ref-cdnjs/ajax/libs/* dist/
+#cp -ru ref-cdnjs/ajax/libs/* dist/
 cp -ru libs/* dist/
 
 echo "- Build packages.json"
